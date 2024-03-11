@@ -1,0 +1,54 @@
+body{
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+h1{
+    text-align: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    margin-top: 10px;
+
+}
+
+input{
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
+    
+}
+
+button{
+    padding: 10px 20px;
+    margin-top: 10px ;
+    background-color: blueviolet;
+    cursor: pointer;
+    color: azure;
+    border-radius: 15px;
+    border: none;
+    transition: 1s;
+}
+
+button:hover{
+background-color:rgb(128, 68, 184);
+transform: translatey(10px);
+}
+
+#check{
+    margin-right: 15px;
+}
+
+#check:checked{
+    background-color: rgb(128, 68, 184);
+}
